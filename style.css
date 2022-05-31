@@ -36,3 +36,20 @@ body {
     margin-top: 30px;
     letter-spacing: 2px;
 }
+.box .icons{
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 22px;
+}
+.box .icons .circle {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(14, 83, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
