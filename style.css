@@ -31,13 +31,13 @@ body {
 }
 .box  .mid p {
     color: whitesmoke;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     margin-top: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 .box .icons{
-    padding: 30px 100px;
+    padding: 35px 100px;
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -52,4 +52,17 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+}
+
+.box .icons .circle:nth-child(1) {
+    background-color: #69B7CF;
+}
+.box .icons .circle:nth-child(2) {
+    background-color: #7492D2;
+}
+.box .icons .circle:nth-child(3) {
+    background-color: #89BF93;
+}
+.box .icons .circle:nth-child(4) {
+    background-color: #C289A4;
 }
